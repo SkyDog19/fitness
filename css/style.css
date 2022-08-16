@@ -1866,6 +1866,12 @@ body::after {
   padding-bottom: 8.0625rem;
 }
 
+@media (max-width: 1152px) {
+  .about-what__container {
+    padding-bottom: 0;
+  }
+}
+
 .about-what__bg-yellow {
   position: absolute;
   width: 70.625rem;
